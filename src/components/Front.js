@@ -51,6 +51,29 @@ class Front extends Component {
                             href='https://siveran.github.io/calc.html'
                             target='_blank'
                         />
+
+                        <Card
+                            image={require('../assets/poe-racing.png')}
+                            header='poe-racing.com'
+                            description='Check out latest racing standings'
+                            href='http://poe-racing.com'
+                            target='_blank'
+                        />
+
+                        <Card
+                            image={require('../assets/reddit.png')}
+                            header='reddit'
+                            description='Reddit about PoE'
+                            href='https://www.reddit.com/r/pathofexile/'
+                            target='_blank'
+                        />
+                        <Card
+                            image={require('../assets/poe-wiki.png')}
+                            header='PoE wiki'
+                            description='Learn about PoE'
+                            href='https://pathofexile.gamepedia.com/Path_of_Exile_Wiki'
+                            target='_blank'
+                        />
                 </Card.Group>
             </div>            
         )
