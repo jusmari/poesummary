@@ -10,8 +10,8 @@ class Front extends Component {
 
     render() {
         return(
-            <div>
-                <Card.Group itemsPerRow={4}>
+            <div className="CardContainer">
+                <Card.Group itemsPerRow={4} doubling={true}>
                         <Card
                             image={require('../assets/poeninja.png')}
                             header='poe.ninja'
