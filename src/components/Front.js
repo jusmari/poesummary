@@ -11,7 +11,7 @@ class Front extends Component {
     render() {
         return(
             <div className="CardContainer">
-                <Card.Group itemsPerRow={5} doubling={true}>
+                <Card.Group itemsPerRow={6} doubling={true}>
                         <Card
                             image={require('../assets/poeninja.png')}
                             header='poe.ninja'
@@ -86,6 +86,13 @@ class Front extends Component {
                             header='Official PoE forums'
                             description='Discuss and learn about PoE'
                             href='https://www.pathofexile.com/forum'
+                            target='_blank'
+                        />
+                        <Card
+                            image={require('../assets/planner.png')}
+                            header='poeplanner'
+                            description='Plan your build'
+                            href='https://poeplanner.com/'
                             target='_blank'
                         />
                 </Card.Group>
