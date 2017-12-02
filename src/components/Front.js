@@ -30,7 +30,7 @@ class Front extends Component {
 
                         <Card
                             image={require('../assets/currency.png')}
-                            header='currency.poe.trade'
+                            header='currency trade'
                             description='Find currency for sale'
                             href='http://currency.poe.trade'
                             target='_blank'
