@@ -51,7 +51,13 @@ class Front extends Component {
                             href='https://siveran.github.io/calc.html'
                             target='_blank'
                         />
-
+                        <Card
+                            image={require('../assets/craft.png')}
+                            header="PoeCraft"
+                            description='Play with item stats'
+                            href='http://poecraft.com/'
+                            target='_blank'
+                        />
                         <Card
                             image={require('../assets/poe-racing.png')}
                             header='poe-racing.com'
