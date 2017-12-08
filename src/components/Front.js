@@ -77,10 +77,18 @@ class Front extends Component {
                         <Card
                             image={require('../assets/filter.png')}
                             header='Filterblade.xyz'
-                            description='Create your own loot filters'
+                            description='Loot filters'
                             href='http://www.filterblade.xyz/'
                             target='_blank'
                         />
+                        <Card
+                            image={require('../assets/filter.png')}
+                            header='filterblast.oversoul.xyz'
+                            description='More loot filters'
+                            href='http://filterblast.oversoul.xyz/'
+                            target='_blank'
+                        />
+                        
                         <Card
                             image={require('../assets/forum.png')}
                             header='Official PoE forums'
@@ -93,6 +101,20 @@ class Front extends Component {
                             header='poeplanner'
                             description='Plan your build'
                             href='https://poeplanner.com/'
+                            target='_blank'
+                        />
+                        <Card
+                            image={require('../assets/auras.png')}
+                            header="Mikelat's PoE Aura Calculator"
+                            description='Plan your build'
+                            href='https://poe.mikelat.com/'
+                            target='_blank'
+                        />
+                        <Card
+                            image={require('../assets/affix.png')}
+                            header="PoE Affix"
+                            description='Play with item stats'
+                            href='http://poeaffix.net/index.html'
                             target='_blank'
                         />
                 </Card.Group>
